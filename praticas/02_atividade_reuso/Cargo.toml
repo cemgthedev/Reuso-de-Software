@@ -1,0 +1,8 @@
+[package]
+name = "atividade_reuso"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "2.27.1" # do crates.io
+atividade_lib = { git = "https://github.com/cemgthedev/Reuso-de-Software", subdir = "praticas/02_atividade_libs" }
